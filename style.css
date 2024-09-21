@@ -1,0 +1,179 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, rgb(6, 233, 6), rgb(3, 77, 3));
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900; 
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#navbar h1{
+    font-weight: 900;
+}
+
+.menuGalaxy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    gap: 15px; 
+}
+
+.menuGalaxy > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column; 
+        height: auto; 
+    }
+    
+    .menuGalaxy {
+        width: 100%; 
+        justify-content: space-around; 
+        padding: 10px 0;
+    }
+    
+    .menuGalaxy > a {
+        font-size: 14px; 
+        padding: 5px 0;
+    }
+
+    #navbar h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .input-container select {
+        font-size: 10px;
+    }
+    
+}
+
+
+
+#Container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 11px;
+    color: rgb(168, 245, 168);
+    background: linear-gradient(to left, rgb(2, 54, 23), rgb(2, 211, 10));
+}
+#Container h1 {
+    font-size: 5vw;
+}
+
+#Convertor-container {
+    width: 80%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    font-weight: 900;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem 1.8rem;
+    
+}
+.symbols {
+    text-align: center;
+    margin: 10px;
+}
+.Convertor {
+    width: 100%;
+    height: 100%; 
+}
+.input-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: 100%;    
+}
+.user-input {
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.input-container select {
+    margin-right : 10px;
+    border: none;
+   position: absolute;
+}
+
+
+
+
+
+
+
+/* about----------------------------
+ */
+
+ #about {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 20px 0px;
+    
+ }
+ span {
+    display: flex;
+
+    
+ }
+
+ span .changeExample {
+    display: inline;
+    font-size: 19px;
+
+ }
+ #about span {
+    
+ }
+ #about .submit {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(8, 202, 8);
+    border: none;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    row-gap: 2px;
+    
+ }
+ #about .submit:hover {
+    background-color: rgb(12, 181, 12);
+ }
+
+
+
+
+ /* deploy websites 
+ vercel 
+ render
+  */
